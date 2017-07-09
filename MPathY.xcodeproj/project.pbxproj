@@ -28,6 +28,7 @@
 		3D9EBE0D1F11EC7600ABA3E7 /* FacadeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9EBE0C1F11EC7600ABA3E7 /* FacadeController.swift */; };
 		3D9EBE0F1F11EC8000ABA3E7 /* ViewFacadeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9EBE0E1F11EC8000ABA3E7 /* ViewFacadeController.swift */; };
 		3D9EBE111F11EC8600ABA3E7 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9EBE101F11EC8600ABA3E7 /* Facade.swift */; };
+		FB2F7F3E1F12027800F8D544 /* LoginPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F7F3D1F12027800F8D544 /* LoginPageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		3D9EBE0C1F11EC7600ABA3E7 /* FacadeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacadeController.swift; sourceTree = "<group>"; };
 		3D9EBE0E1F11EC8000ABA3E7 /* ViewFacadeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewFacadeController.swift; sourceTree = "<group>"; };
 		3D9EBE101F11EC8600ABA3E7 /* Facade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		FB2F7F3D1F12027800F8D544 /* LoginPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				3D9EBDF81F11EABD00ABA3E7 /* Facade */,
 				3D9EBDC31F11E82500ABA3E7 /* AppDelegate.swift */,
 				3D9EBDCB1F11E82500ABA3E7 /* Main.storyboard */,
+				FB2F7F3D1F12027800F8D544 /* LoginPageController.swift */,
 				3D9EBDCE1F11E82500ABA3E7 /* Assets.xcassets */,
 				3D9EBE121F11EC8C00ABA3E7 /* Supporting Files */,
 				3D9EBDD01F11E82500ABA3E7 /* LaunchScreen.storyboard */,
@@ -343,6 +346,7 @@
 				3D9EBDC61F11E82500ABA3E7 /* RootViewController.swift in Sources */,
 				3D9EBDCA1F11E82500ABA3E7 /* ModelController.swift in Sources */,
 				3D9EBE061F11EC4000ABA3E7 /* Resources.swift in Sources */,
+				FB2F7F3E1F12027800F8D544 /* LoginPageController.swift in Sources */,
 				3D9EBE041F11EC3500ABA3E7 /* ViewResourcesController.swift in Sources */,
 				3D9EBE021F11EC2B00ABA3E7 /* ResourcesController.swift in Sources */,
 				3D9EBE0D1F11EC7600ABA3E7 /* FacadeController.swift in Sources */,
@@ -602,6 +606,7 @@
 				3D9EBDEE1F11E82500ABA3E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D9EBDEF1F11E82500ABA3E7 /* Build configuration list for PBXNativeTarget "MPathYTests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +615,7 @@
 				3D9EBDF11F11E82500ABA3E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D9EBDF21F11E82500ABA3E7 /* Build configuration list for PBXNativeTarget "MPathYUITests" */ = {
 			isa = XCConfigurationList;
@@ -618,6 +624,7 @@
 				3D9EBDF41F11E82500ABA3E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
